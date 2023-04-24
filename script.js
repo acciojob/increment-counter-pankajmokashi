@@ -6,6 +6,7 @@ function addCount(){
 	alert(p.innerText)
     p.innerText = ""
 	p.innerText = count + 1
+	alert(p.innerText)
     count += 1
 }
 button.addEventListener("click",addCount)
