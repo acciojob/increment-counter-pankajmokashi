@@ -3,10 +3,9 @@ let p = document.getElementById("counter")
 let button = document.getElementById("incrementBtn")
 let count = 0
 function addCount(){
-	alert(p.innerText)
+	alert(count)
     p.innerText = ""
 	p.innerText = count + 1
-	alert(p.innerText)
     count += 1
 }
 button.addEventListener("click",addCount)
