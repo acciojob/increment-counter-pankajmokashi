@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let p = document.getElementById("p")
+let p = document.getElementById("counter")
 let button = document.getElementById("incrementBtn")
 let count = 0
 function addCount(){
